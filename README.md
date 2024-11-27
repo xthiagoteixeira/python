@@ -1,8 +1,11 @@
 WDO Analysis Suite
+
 Este conjunto de scripts oferece uma análise abrangente e multifacetada do mercado de mini contratos de dólar (WDO), utilizando dados da B3 e outras fontes. Cada script é projetado para realizar tarefas específicas, desde a coleta de dados até análises preditivas avançadas.
-Scripts Incluídos
+
 1. WDO Analise TV_v16.ipynb
+   
 Este script realiza uma análise detalhada dos dados do WDO utilizando dados do TradingView.
+
 Benefícios:
 
 Identificação precisa de níveis de suporte e resistência
@@ -18,7 +21,9 @@ TensorFlow para modelagem preditiva
 Matplotlib e Seaborn para visualizações
 
 2. WDO Coleta B3_v5.ipynb
+   
 Script dedicado à coleta automática de dados históricos do WDO diretamente da B3.
+
 Benefícios:
 
 Coleta automatizada de dados históricos
@@ -32,7 +37,9 @@ pandas para processamento de dados
 Logging para registro de atividades
 
 3. WDO Coleta MT.ipynb
+   
 Este script coleta dados do WDO através da plataforma MetaTrader.
+
 Benefícios:
 
 Acesso a dados em tempo real
@@ -46,7 +53,9 @@ pandas para organização de dados
 Logging para monitoramento de execução
 
 4. WDO Analise MT_v7.ipynb
+   
 Realiza uma análise aprofundada dos dados coletados via MetaTrader.
+
 Benefícios:
 
 Análise técnica avançada
@@ -60,7 +69,9 @@ pandas e numpy para análise de dados
 ta-lib para indicadores técnicos avançados
 
 5. WDO Analise B3_v3.ipynb
+   
 Este script foca na análise dos dados coletados diretamente da B3.
+
 Benefícios:
 
 Análise fundamentada em dados oficiais da bolsa
@@ -91,10 +102,12 @@ Instalação
 bashCopypip install -r requirements.txt
 
 6. Coletor de Dados de FIIs
+   
 Este script Python automatiza a coleta de dados de Fundos de Investimento Imobiliário (FIIs) do site fiis.com.br,
 processando e organizando as informações em um formato facilmente analisável.
 
 Descrição
+
 O script utiliza web scraping para extrair dados detalhados sobre FIIs de uma fonte confiável,
 processa essas informações e as exporta para um arquivo Excel, facilitando análises posteriores.
 
@@ -128,6 +141,7 @@ Pandas
 Chrome WebDriver
 
 Instalação
+
 bashCopypip install selenium pandas
 Certifique-se de ter o Chrome WebDriver instalado e configurado no seu PATH.
 Uso
